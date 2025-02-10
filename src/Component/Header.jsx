@@ -1,5 +1,8 @@
 import React from "react";
 import '../CSS/Header.css'
+import linkedin from '../assets/linkedin.png'
+import photo from '../assets/photo.png'
+import github from '../assets/git.png'
 
 const Header = ()=> {
     return(
@@ -14,17 +17,17 @@ const Header = ()=> {
   </div>
 
   <figure className="photo">
-    <img src="/src/assets/photo.png" alt="Profile photo of Gaurab Chand" />
+    <img src={photo} alt="Profile photo of Gaurab Chand" />
   </figure>
 
 <div className="social">
   <ul className="social">
     <li className="linkedin">
-      <img src="/src/assets/linkedin.png" alt="LinkedIn icon" />
+      <img src={linkedin} alt="LinkedIn icon" />
       <a href="#" className="linkedin-link">LinkedIn</a>
     </li>
     <li className="github">
-      <img src="/src/assets/git.png" alt="GitHub icon" />
+      <img src={github} alt="GitHub icon" />
       <a href="#" className="github-link">GitHub</a>
     </li>
   </ul>
