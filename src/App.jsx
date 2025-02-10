@@ -7,9 +7,9 @@ function App() {
     <BrowserRouter>
     <Routing/>
     </BrowserRouter>
-   
+  
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
