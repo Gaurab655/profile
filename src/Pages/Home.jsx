@@ -4,15 +4,15 @@ import Header from "../Component/Header"
 import Bio from '../Component/Bio';
 import Skills from '../Component/Skills';
 import Message from '../Component/message';
-import Experience from '../Component/Experience';
+import Education from '../Component/Education';
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <Header/>
-      <Experience/>
       <Bio/>
       <Skills/>
+      <Education/>
       <Message/>
     </div>
   );

@@ -4,7 +4,7 @@ function message() {
   return (
     <div className="max-w-5xl mx-auto mt-[88px] p-6 rounded-lg">
   {/* Title */}
-  <h1 className="text-3xl font-bold text-[#FF8303] text-center mb-6">Send Me a Message</h1>
+  <h1 className="text-3xl font-bold text-[#FF8303] text-center mb-6">Send Me Message</h1>
 
   {/* Form */}
   <form className=" mt-20 flex flex-col gap-8 w-full">
