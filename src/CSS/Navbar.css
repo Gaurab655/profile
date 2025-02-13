@@ -1,9 +1,4 @@
 
-body{
-    font-family:'Poppins';
-    margin-left: 80px;
-    margin-right: 80px;
-}
 .navbar{
     display: flex;
     align-items: center;
