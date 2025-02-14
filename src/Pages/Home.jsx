@@ -5,6 +5,8 @@ import Bio from '../Component/Bio';
 import Skills from '../Component/Skills';
 import Message from '../Component/message';
 import Education from '../Component/Education';
+import Projects from '../Component/Projects';
+import Footer from '../Component/Footer';
 const Home = () => {
   return (
     <div>
@@ -12,8 +14,10 @@ const Home = () => {
       <Header/>
       <Bio/>
       <Skills/>
+      <Projects/>
       <Education/>
       <Message/>
+      <Footer/>
     </div>
   );
 };
